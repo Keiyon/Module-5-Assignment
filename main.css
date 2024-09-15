@@ -34,6 +34,8 @@ input[type=submit] {
   
 }
 
+/* Below is my CSS for booking.html file */
+
 .card {
     box-shadow: 0 6px 10px; /* Added some shadow for the card so it stands out more */
     
@@ -44,7 +46,7 @@ input[type=submit] {
     box-shadow: 0 6px 10px; /* Added some shadow for the card so it stands out more */
     
 }
-.card:hover {
+.card:hover, .card2:hover, .card3:hover, .card4:hover {
     box-shadow: 0 12px 20px; /* This adds more of a shadowy effect when you hover your mouse over the card */
 }
 
