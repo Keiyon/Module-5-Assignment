@@ -84,8 +84,12 @@ h1 {
     text-align: center; /* Centered all of my h1 tags */
 }
 
-#Cornrows, #Braids, #Fade {
+#Cornrows, #Braids, #Fade { 
     display: flex;
-    justify-content: center;
+    justify-content: center; /* These centered my table */
     
 } 
+
+td, td {
+    text-align: center; /* Centered the content on my tables */
+}
