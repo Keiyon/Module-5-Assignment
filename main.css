@@ -51,5 +51,8 @@ padding-left: 1%; /* Added some padding so that the image did not hug the left s
     padding: 2px 8px; /* Added some padding for the name and work schedule underneath card */
 }
 
+#jeremiah p {
+    color: red;
+}
 
 
