@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(201, 216, 231);
+    padding: 30px
+}
+
+input[type=text], textarea {
+    width: 100%; /* The overall width of the page */
+    padding: 12px; /* Adds space around text */
+    border: 3px dashed ; /* Added dashed borders around my text areas */
+    margin-top: 6px; /* Adds 6 px of spacing between Full Name and my box */
+    margin-bottom: 14px; /* Adds 14 px of spacing between the bottom of the box and next content */
+    resize: vertical; /* Allows the user to resize the box only in the vertical position */
+    
+
+ }
+
+input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px dashed;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
