@@ -38,6 +38,8 @@ input[type=submit] {
 
 .card, .card2, .card3, .card4 {
     box-shadow: 0 6px 10px; /* Added some shadow for the card so it stands out more */
+padding-top: 1%; /* Added some padding so that the top of the image did not hug the card */
+padding-left: 1%; /* Added some padding so that the image did not hug the left side of the card */
     
 }
 
