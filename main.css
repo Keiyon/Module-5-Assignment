@@ -51,8 +51,27 @@ padding-left: 1%; /* Added some padding so that the image did not hug the left s
     padding: 2px 8px; /* Added some padding for the name and work schedule underneath card */
 }
 
-#jeremiah p {
-    color: red;
+#mwabonje p, #dwayne p, #bulma p {
+    font-weight: bold;
 }
 
+#jeremiah p {
+    color: red;
+    font-weight: bold;
+}
+
+#jeremiah li p {
+    color: black; /* Changes the color of the initial p tag from red to black */ 
+
+}
+
+#mwabonje li p #dwayne li p, #bulma li p {
+    font-weight: bold
+}
+
+#jeremiah li a, #mwabonje li a, #dwayne li a, #bulma li a {
+    font-weight: lighter; /* Changes the font to a lighter tone */
+    text-decoration: none; /* Removes the line for the hyperlink */
+    
+}
 
