@@ -36,25 +36,16 @@ input[type=submit] {
 
 /* Below is my CSS for booking.html file */
 
-.card {
+.card, .card2, .card3, .card4 {
     box-shadow: 0 6px 10px; /* Added some shadow for the card so it stands out more */
     
 }
 
-
-.card2 {
-    box-shadow: 0 6px 10px; /* Added some shadow for the card so it stands out more */
-    
-}
 .card:hover, .card2:hover, .card3:hover, .card4:hover {
     box-shadow: 0 12px 20px; /* This adds more of a shadowy effect when you hover your mouse over the card */
 }
 
-.container1 {
-    padding: 2px 8px; /* Added some padding for the name and work schedule underneath card */
-}
-
-.container2 {
+.container1, .container2, .container3, .container4 {
     padding: 2px 8px; /* Added some padding for the name and work schedule underneath card */
 }
 
